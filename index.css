@@ -1,17 +1,17 @@
 :root {
-  --base: #ffc600;
+  --border: #ffc600;
   --spacing: 10px;
   --blur: 10px;
 }
 
 img {
   padding: var(--spacing);
-  background: var(--base);
+  background: var(--border);
   filter: blur(var(--blur));
 }
 
 span {
-  color: var(--base);
+  color: var(--border);
 }
 
 body {
